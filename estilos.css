@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.body{
+  background-image: url(https://www.portallos.com.br/wp-content/uploads/2010/03/pokemons-wallpaper.jpg);
+}
+.main{
+  margin: auto;
+  background-color: rgb(223, 6, 6);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border: solid 10px rgb(138, 11, 11);
+  text-align: center;
+  color: white;
+  width: 450px;
+  height: 500px;
+  border-radius: 8px;
+  margin-top: 50px;
+}
+@media(max-width: 700px) {
+  .main{
+    width: 350px;
+  }  
+}
+.conteudo {
+  height: 350px;
+  background-color: white;
+  width: 400px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2fb2821a-1406-4a1d-9b04-6668f278e944/d843okx-eb13e8e4-0fa4-4fa9-968a-e0f36ff168de.png/v1/fill/w_417,h_250,q_70,strp/pokemon_x_and_y_battle_background_11_by_phoenixoflight92_d843okx-250t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDgwIiwicGF0aCI6IlwvZlwvMmZiMjgyMWEtMTQwNi00YTFkLTliMDQtNjY2OGYyNzhlOTQ0XC9kODQzb2t4LWViMTNlOGU0LTBmYTQtNGZhOS05NjhhLWUwZjM2ZmYxNjhkZS5wbmciLCJ3aWR0aCI6Ijw9ODAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.m5eG5d4O5_xTOZAmNu5BcPF8rs01F7Pp4y2g2R14kOE);
+  background-repeat: round;
+  border-radius: 4px;
+}
+@media(max-width: 700px) {
+  .conteudo{
+    max-width: 300px;
+  }
+}
+.btn-pesquisar {
+  background-color: rgb(2, 2, 2);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+.btn-pesquisar:hover {
+  background-color: rgb(4, 155, 24);
+  color: white;
+}
+.pesquisa {
+  font-size: 16px;
+  height: 34px;
+  border-radius: 8px;
+}
