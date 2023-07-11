@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+body {
+  background-image: url(https://www.portallos.com.br/wp-content/uploads/2010/03/pokemons-wallpaper.jpg);
+  background-size: cover;
+}
 .main{
   margin: auto;
   background-color: rgb(223, 6, 6);
